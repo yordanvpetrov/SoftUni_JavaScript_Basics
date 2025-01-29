@@ -1,7 +1,7 @@
 function salary(arr) {
     let openTabs = arr[0];
     let salary = arr[1];
-    for (i = 2; i <= openTabs + 1; i++) {
+    for (let i = 2; i <= openTabs + 1; i++) {
         let checkTab = arr[i];
 
         if (salary <= 0) {

@@ -3,9 +3,9 @@ function cleverLily(age, targetPrice, toyPrice) {
     let toysQty = 0;
     let counter = 1;
 
-    for (i = 1; i <= age; i++) {
+    for (let i = 1; i <= age; i++) {
         if (i % 2 === 0) {
-            for (x = 1; x <= counter; x++) {
+            for (let x = 1; x <= counter; x++) {
                 savedMoney += 10;
             }
             savedMoney--;

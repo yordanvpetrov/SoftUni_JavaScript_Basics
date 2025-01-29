@@ -5,7 +5,7 @@ function histogram(array) {
     let group3 = 0;
     let group4 = 0;
     let group5 = 0;
-    for (i = 1; i <= numbsCount; i++) {
+    for (let i = 1; i <= numbsCount; i++) {
         let currentNumber = array[i];
 
         if (currentNumber < 200) {

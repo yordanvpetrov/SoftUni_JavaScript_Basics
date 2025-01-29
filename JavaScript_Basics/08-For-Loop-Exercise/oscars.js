@@ -1,7 +1,7 @@
 function oscars(arr) {
     let actorName = arr[0];
     let actorPoints = Number(arr[1]);
-    for (i = 3; i < arr.length; i += 2) {
+    for (let i = 3; i < arr.length; i += 2) {
         let currentJuryName = arr[i];
         let currentJuryPoints = Number(arr[i + 1]);
 
