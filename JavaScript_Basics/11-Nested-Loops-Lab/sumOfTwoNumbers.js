@@ -1,4 +1,4 @@
-function sumOfTwoNumbers(arg1, arg2, arg3){
+function sumOfTwoNumbers(arg1, arg2, arg3) {
     let start = Number(arg1);
     let end = Number(arg2);
     let magicNumber = Number(arg3);
