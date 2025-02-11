@@ -15,15 +15,19 @@ function trainTheTrainers(input) {
             sumGrade += Number(input[index]);
             index++;
         }
-        
+
         currentAverage = sumGrade / judge;
         averageGrade += currentAverage;
         console.log(`${presentationName} - ${currentAverage.toFixed(2)}.`);
-        
+
         presentationName = input[index];
         index++;
         sumGrade = 0;
         presentations++;
     }
-    console.log(`Student's final assessment is ${(averageGrade / presentations).toFixed(2)}.`);
+    console.log(
+        `Student's final assessment is ${(averageGrade / presentations).toFixed(
+            2
+        )}.`
+    );
 }
