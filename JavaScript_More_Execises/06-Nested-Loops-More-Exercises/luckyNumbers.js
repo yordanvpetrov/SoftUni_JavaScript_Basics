@@ -19,5 +19,3 @@ function luckyNumbers(number) {
     }
     console.log(result);
 }
-
-luckyNumbers(3);
