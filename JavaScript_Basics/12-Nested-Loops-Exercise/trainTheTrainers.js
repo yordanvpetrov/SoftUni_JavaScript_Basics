@@ -26,8 +26,5 @@ function trainTheTrainers(input) {
         presentations++;
     }
     console.log(
-        `Student's final assessment is ${(averageGrade / presentations).toFixed(
-            2
-        )}.`
-    );
+        `Student's final assessment is ${(averageGrade / presentations).toFixed(2)}.`);
 }
