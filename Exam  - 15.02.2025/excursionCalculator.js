@@ -5,7 +5,7 @@ function excursionCalculator(people, season) {
         switch (season) {
             case "spring":
                 pricePerPerson = 50;
-            break;
+                break;
             case "summer":
                 pricePerPerson = 48.50;
                 break;
@@ -20,7 +20,7 @@ function excursionCalculator(people, season) {
         switch (season) {
             case "spring":
                 pricePerPerson = 48;
-            break;
+                break;
             case "summer":
                 pricePerPerson = 45;
                 break;

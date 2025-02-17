@@ -8,7 +8,7 @@ function pcStore(cpu, gpu, ram, qtyRam, discount) {
     let gpuDiscount = gpuBgn - gpuBgn * discount;
 
     let total = cpuDiscount + gpuDiscount + ramBgn;
-    
+
     console.log(`Money needed - ${total.toFixed(2)} leva.`);
 }
 

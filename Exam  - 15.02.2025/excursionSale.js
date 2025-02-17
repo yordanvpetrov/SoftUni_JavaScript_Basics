@@ -11,7 +11,7 @@ function excursionSale(input) {
 
     let profit = 0;
 
-    while(totalPackets > 0) {
+    while (totalPackets > 0) {
 
         if (type === "Stop") {
             break;
@@ -23,9 +23,9 @@ function excursionSale(input) {
                 index++;
                 continue
             } else {
-            seaTrip--;
-            totalPackets--;
-            profit += 680;
+                seaTrip--;
+                totalPackets--;
+                profit += 680;
             }
         } else if (type === "mountain") {
             if (mountainTrip <= 0) {
